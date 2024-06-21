@@ -1,0 +1,4 @@
+1. Functions that needed chaning are : both PSSet constructor, getPartialSolutionList, and commented out the iterator, union, expandPartialSolution. Changes are initialization change from List to TreeSet, changes how they get things from the list, etc... mostly type stuff since Arraylist does extend set
+2. Yes because I didn't have to change other classes, only the one needed to change are the class itself and if any constructors of PSSet is used outside the class (changed it to give parameter of type TreeSet)
+3. This project was made more efficient because it now utilyzes the nature of the sorted data in TreeSet. Especially, getBestPartialSolution is now O(1) because the data is already sorted by rating (ascending) so getting the best one is only getting the first one in the data set\
+
